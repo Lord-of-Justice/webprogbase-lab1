@@ -1,0 +1,57 @@
+.main-block {
+    /*! background-color: white; */
+    border: 2px solid black;
+    width: 1200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;    
+}
+.logo-sitename {
+    background-color: green;
+    margin: 3px;
+    height: 15%;
+    min-height: 88px;
+}
+.header {
+    width: auto;
+    float: left;
+}
+.header h3 {
+    text-align: center;
+    margin: 0px;
+}
+.logo {
+    float: left;
+    width: 20%;
+}
+.logo img {
+    width: 40%;    
+}
+.menu {
+    background-color: violet;
+    float: left;
+    text-align: center;
+    width: 15%;
+    margin: 3px;
+}
+.menu a{
+    display: block;
+    margin: 3px;
+    padding: 2vh;
+}
+.page-settings {
+    background-color: lightskyblue;
+    float: right;
+    margin: 3px;
+    width: 84%;
+}
+.page-settings {
+    text-align: center;
+}
+
+
+
+
