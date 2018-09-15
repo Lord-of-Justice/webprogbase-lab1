@@ -70,8 +70,10 @@ li a:hover {
 .page-settings {
     color:white;
     float: right;
-    margin: 0px;
-    width:84%;
+    margin: 10px;
+    margin-top: 30px;        
+    width: auto;
+    overflow: hidden;
     font-family: Comic Sans MS, Comic Sans, cursive;
     text-align: center;
 }
@@ -80,6 +82,9 @@ li a:hover {
     float: center;
     border: 2px solid white;
     border-collapse: separate;
+}
+.table-of-users {
+    float: center;
 }
 .user-ava {
     float: left;
