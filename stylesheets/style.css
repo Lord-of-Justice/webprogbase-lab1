@@ -77,6 +77,10 @@ li a:hover {
     font-family: Comic Sans MS, Comic Sans, cursive;
     text-align: center;
 }
+.page-settings li{
+    list-style-type:none;
+    float: center;
+}
 .page-settings table, td, th {
     text-align: center;
     float: center;
@@ -113,10 +117,12 @@ li a:hover {
 }
 .order li{
     display: block;
-    border: 2px solid white;
-    border-collapse: separate;
-    margin: 3px;
+    background-color: white;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;    
     padding: 2vh;
+    margin-top: 5px;
+    border-radius: 15px;
 }
 .dish-img {
     float: left;
