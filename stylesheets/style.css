@@ -118,8 +118,21 @@
 }
 .contacts {
     float: left;
-    
+    width: 70%;
+}
+.contacts h4, p {
+    margin: 20px;
 }
 .author {
-    float: bottom;
+    float: left;
+    width: 30%;
 }
+.author img {
+    border: 2px solid darkred;
+    width:240px;
+    height:320px; 
+}
+.author h3, h4 {
+    margin: 2px;
+}
+
