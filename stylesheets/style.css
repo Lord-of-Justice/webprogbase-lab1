@@ -59,17 +59,15 @@
     float: right;
     margin: 0px;
     width: 84%;
-}
-.page-settings {
     font-family: Comic Sans MS, Comic Sans, cursive;
     text-align: center;
 }
 .page-settings table, td, th {
     text-align: center;
+    float: center;
     border: 2px solid darkred;
     border-collapse: separate;
 }
-
 .user-ava {
     float: left;
     margin: 5px;    
@@ -94,5 +92,33 @@
     text-align: justify;
     padding: 5px;
 }
-
-
+.order li{
+    display: block;
+    border: 2px solid darkred;
+    border-collapse: separate;
+    margin: 3px;
+    padding: 2vh;
+}
+.dish-img {
+    float: left;
+    margin: 5px;    
+    width: 35%;
+}
+.dish-img img {
+    border: 2px solid darkred;
+    width:225px;
+    height:225px;
+}
+.dish-name {
+    float: left;
+    width: auto;
+    margin: 5px;
+    text-align: left;
+}
+.contacts {
+    float: left;
+    
+}
+.author {
+    float: bottom;
+}
